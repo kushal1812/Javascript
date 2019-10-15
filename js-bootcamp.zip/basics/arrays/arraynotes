@@ -1,0 +1,80 @@
+push()
+    push adds an element to the last of an array
+
+pop()
+    deletes an element at the last of an array
+
+shift()
+    deletes an element at the first of an array
+
+
+unshift()
+    adds an element at the first of an array
+
+splice()
+    allows us to add or delete elements from middle of an array .
+
+splice(1,1)
+    meaning it goes to the index 1 element and removes the 1 element from there
+splice(1,2)
+    meaning it goes to the index 1 element and removes the 2 elements from there
+
+to add through splice(1,0,'added through splice')
+    meaning it adds the message at index 1.
+
+splice(1,1,'addedededed)
+    meaning it goes to index 1 and remove 1 element from  there and adds the message at that posittion
+
+
+-----------------
+LOOPING OVER ARRAYS
+ forEach()      
+    forEach() takes an argument 
+    the difference is that we are going to pass function as an argument 
+    When we do this the function we define and pass into other function 
+    is known as call back function .
+
+    In this case of forEach , callback function gets called one time for each item  
+    in the array 
+for()
+    if you want to run a loop for a spcefic number of timens then we can go with 
+    for() loop
+--------------------------
+SEARCHING AN ARRAYS
+indexOf()
+    indexOf method allows us to get the poition of an item in the array.
+    if the item exists its index will be returned ,if not -1 will be returned .
+
+
+    const places = ['Philadelphia', 'Texas', 'Vermont']
+    const index = places.indexOf('Vermont')
+    console.log(index)//will print 2 .
+
+    Remember this doesnot work for arrayOfIndex() .
+    indexOf() uses === method to compare the values .('Test' === 'Test is true).
+    ({}==={} is false).
+
+findIndex()
+    method returns the index of the first element in the array that 
+    satisfies the provided testing function. 
+    Otherwise, it returns -1, indicating that no element passed the test.
+
+find() 
+    this method is similar to findIndex() ,
+    findIndex method returns index 
+    whereas find method returns the value itself .
+
+------------------------
+
+FILTERING AN ARRAYS
+filter()
+    filter method allows us to filter an array ,it returns a new 
+    array with just filtered items .
+---------------
+sort() 
+    sort method allows you to sort an array based on certain criteria
+
+    sort(function(a,b))
+        // if a should come firstreturn -1,
+        // else
+        // if b should come first return 1
