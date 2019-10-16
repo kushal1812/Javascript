@@ -78,4 +78,5 @@ const findNotes = function(notes,noteTitle){
 console.log(findNotes(notes,'jkfnd'));
 console.log('learning git with JS');
 console.log('with pull request');
+console.log('#004 branch');
 
