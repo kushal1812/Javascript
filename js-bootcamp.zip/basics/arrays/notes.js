@@ -75,5 +75,5 @@ const findNotes = function(notes,noteTitle){
     })
 }
 
-console.log(findNotes(notes,'eating'));
+console.log(findNotes(notes,'jkfnd'));
 
