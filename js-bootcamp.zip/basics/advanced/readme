@@ -1,0 +1,21 @@
+difference between find and filter
+
+1)find()
+find() returns the descendants of the selected 
+elements that match the selector.
+
+Description: Get the descendants of each element in the current
+ set of matched elements, filtered by a selector.
+
+2)filter()
+ filter() filters the elements based on the selector or 
+ the provided function.
+Description: Reduce the set of matched elements to those 
+that match the selector or pass the function's test.
+
+
+II)
+truthy ---Values that resolve to true in boolean context .
+falsy ---- Values that resolve to false in boolean context. 
+Falsy values ---- false,0,empty string ,null , undefined,NaN
+Truthy values ---- Objects 
