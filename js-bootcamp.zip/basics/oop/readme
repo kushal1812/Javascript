@@ -1,0 +1,42 @@
+//Before
+
+const person = {
+    firstName : 'kushal',
+    lastName : 'Turner'
+    age : 23,
+    getBio(){
+        return `${this.firstName} age is ${this.age}
+    }
+}
+
+const bio = person.getBio();
+console.log(bio);
+
+WHAT IF I WANT A SECOND PERSON
+
+AFTER
+const person1 = Person('kushal','Turner',23);
+const person2 = Person('kushal','Turner',23);
+
+const bio1 = person1.getBio();
+console.log(bio1);
+
+const bio2 = person2.getBio();
+console.log(bio2);
+
+
+II) 
+                            Person Constructor 
+                            Prototype Property 
+                            getBio
+                            setName           \
+                         /                     \
+                        /                       \
+Person Instance       /                          \    Person Instance  
+firstName : 'kusal' /                             \    firstName : 'hitesh'                                 
+lastName :'reddy' /                                \   lastName :'reddy'
+age:54          /                                   \ age:54
+[[Protptype]] /                                      \ [[Protptype]]                                        
+
+
+
